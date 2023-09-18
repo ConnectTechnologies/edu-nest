@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--font style change from googlefonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,300;1,700&display=swap" rel="stylesheet">
+    
+    <!---font awesome 4 cdn and icons---->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Blog Page - Edu-Nest</title>
+        
+</head>
+<body>
+
+<div id="preloader"></div>
+    <section id="header">
+        <nav>
+            <a href="index.html"><img src="images/log.png"></a>
+            <div class = "nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="courses.html">COURSES</a></li> 
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Our Certificates and<br>Online Programmes in 2023 </h1>
+            <p>That you need is here now</p>
+            <a href="contact.html" class="vk">Visit us to know More</a>
+        </div>
+    </section>
+    
+<!---Blog Page---->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images2/certificate.jpg">
+            <h2>Our Certificates & Online Programmes in 2023 </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form class="comment-form" action="https://formsubmit.co/connecttechnologies2023@gmail.com" method="POST">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="text" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="blog-vk">POST COMMENT</button>
+                </form>
+            </div>
+            
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Education Classes</span>
+                <span>+45</span>
+            </div>
+            <div>
+                <span>Subjects</span>
+                <span>+255</span>
+            </div>
+            <div>
+                <span>Languages</span>
+                <span>+25</span>
+            </div>
+            <div>
+                <span>Online Courses</span>
+                <span>+35</span>
+            </div>
+            <div>
+                <span>E-Books</span>
+                <span>+500</span>
+            </div>
+        </div>
+    </div>
+</section>
+    
+<!--Footer-->
+    <section class="footer">
+        <div class="icons">
+            <a href="https://www.facebook.com/profile.php?id=100090662660823" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/ConnectTechno10" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com/edu_nest_dev/" class="fa fa-instagram"></a>
+            <a href="https://github.com/ConnectTechnologies" class="fa fa-github"></a>
+            <a href="https://www.linkedin.com/in/edu-nest-a58132268/" class="fa fa-linkedin"></a>
+        </div>
+        <p>Copyright <i class="fa fa-copyright"></i> 2023-2024 Connect Technologies</p>
+    </section>
+    
+    
+    
+
+    
+    
+<!----Javascript Toggle for Menu----->
+    <script>
+        
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+        
+    </script>
+    
+    
+    
+    <script>
+    
+    var loader = document.getElementById("preloader")  
+    
+    window.addEventListener("load", function(){
+        loader.style.display = "none";
+    })
+        
+    </script>
+    
+    
+    
+    
+</body>
+</html>
