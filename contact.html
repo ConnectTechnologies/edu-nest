@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--font style change from googlefonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,300;1,700&display=swap" rel="stylesheet">
+    
+    <!---font awesome 4 cdn and icons---->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Contact Us - Edu-Nest</title>
+        
+</head>
+<body>
+
+<div id="preloader"></div>
+    <section id="header">
+        <nav>
+            <a href="index.html"><img src="Images/log.png"></a>
+            <div class = "nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Facing a Query ?<br>then, Contact Us </h1>
+            <p>We want to clear your query</p>
+            <a href="contact.html" class="vk">Visit us to know More</a>
+        </div>
+    </section>
+    
+    
+<!--contact us----->
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d78894.77238631522!2d78.58185296471316!3d17.342812336253104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sin!4v1690379101877!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+    
+<section class="contact-us">
+    <div class="contact-col">
+        <div>
+            <i class="fa fa-home"></i>
+            <span>
+                <h5>AN Road, PLO Building</h5>                
+                <p>Hyderabad, Telangana, IN</p>
+            </span>
+        </div>
+        <div>
+            <i class="fa fa-phone"></i>
+            <span>
+                <h5>+91 9876543210</h5>
+                <p>24/7 Mon to Sun</p>
+            </span>
+        </div>
+        <div>
+            <i class="fa fa-envelope-o"></i>
+            <span>
+                <h5>connecttechnologies2023@gmail.com</h5>
+                <p>Email Us your query</p>
+            </span>
+        </div>
+    </div>
+    <div class="contact-col">
+        <form action="https://formsubmit.co/connecttechnologies2023@gmail.com" method="POST">
+            <input type="text" id="name" name="Name" placeholder="Enter Your Name" required>
+            <input type="email" id="email" name="Email" placeholder="Enter Your Email Address" required>
+            <input type="text" id="subject" name="Subject" placeholder="Enter Your Subject" required>
+            <textarea rows="8" id="message" name="Message" placeholder="Message"required></textarea>
+            <button type="submit" class="hq" >Send Message</button>
+        </form> 
+    </div>
+</section>    
+    
+    
+<!--Footer-->
+    <section class="footer">
+        <div class="icons">
+            <a href="https://www.facebook.com/profile.php?id=100090662660823" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/ConnectTechno10" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com/edu_nest_dev/" class="fa fa-instagram"></a>
+            <a href="https://github.com/ConnectTechnologies" class="fa fa-github"></a>
+            <a href="https://www.linkedin.com/in/edu-nest-a58132268/" class="fa fa-linkedin"></a>
+        </div>
+        <p>Copyright <i class="fa fa-copyright"></i> 2023-2024 Connect Technologies</p>
+    </section>
+    
+    
+    
+    
+
+    
+    
+<!----Javascript Toggle for Menu----->
+    <script>
+        
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+        
+    </script>
+    <script>
+    
+    var loader = document.getElementById("preloader")  
+    
+    window.addEventListener("load", function(){
+        loader.style.display = "none";
+    })
+        
+    </script>
+    
+</body>
+</html>
+
+
+
+
+
