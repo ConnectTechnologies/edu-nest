@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--font style change from googlefonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,300;1,700&display=swap" rel="stylesheet">
+    
+    <!---font awesome 4 cdn and icons---->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Courses -- Edu-Nest</title>
+        
+</head>
+<body>
+
+<div id="preloader"></div>
+    <section id="header">
+        <nav>
+            <a href="index.html"><img src="images/log.png"></a>
+            <div class = "nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Get knowledge from <br>experts and get developed</h1>
+            <p>Making India Literated.</p>
+            <a href="contact.html" class="vk">Follow us On Social Media</a>
+        </div>
+    </section>
+    
+    
+<!---Courses-->    
+<section class="course">
+    <h1>Courses We Teach</h1>
+    <p>Everything, You need is here.</p>
+    
+    <div class="row">
+        <div class="course-col">
+            <h3>Grade 6</h3>
+            <p>Grade 6 is a level of education for students who are around 11 to 12 years old in most countries.It is usually the final year of primary or elementary school, or the first year of secondary or middle school.learn more advanced topics in math, such as fractions, decimals, percentages, ratios, exponents, and integers..</p>
+        </div>
+        <div class="course-col">
+            <h3>Grade 7</h3>
+            <p>Grade 7 is a level of education that typically corresponds to the seventh year of schooling for students aged 12 to 13.Different countries and regions may have different curricula, subjects, and assessment methods for grade 7 students.</p>
+        </div>
+        <div class="course-col">
+            <h3>Grade 8</h3>
+            <p>For Grade 8 is the eighth year of formal or compulsory education in the World. The eighth grade is second, third, or fourth (and typically final) year of middle school. Students in eighth grade are usually 13-14 years old. Different terms and numbers are used in other parts of the world.</p>
+        </div>
+    </div>
+</section>
+
+<!---Courses-->    
+<section class="course">
+    <div class="row">
+        <div class="course-col">
+            <h3>Grade 9</h3>
+            <p>Grade 9. It is the middle and second base of Grade 10, You think it is very hard to listen. But its actually easy to learn .We have alloted to learn IIT and State Syllabus of your state.If you were able to complete this share this knownledge to are not able to get the oppurunity to learn and change the world.</p>
+        </div>
+        <div class="course-col">
+            <h3>Grade 10</h3>
+            <p>For Grade 10. It is easy to manage it when you got an oppurunity to learn IIT and State Syllabus of your state.If you are done with this share this.For Grade 6 to 10. We can able to teach them IIT(Indian Instution of Education).We can teach by our online courses by our teachers.It help to you pass grade 10 easily.If you are done with this share the education to others.</p>
+        </div>
+        <div class="course-col">
+            <h3>IIT / JEE</h3>
+            <p>The Indian Institutes of Technology (IITs) are Centrally Funded Technical Institutes located across India. They are under the ownership of the Ministry of Education of the Government of India and are governed by the Institutes of Technology Act, 1961. The Act declares them as Institutes of National Importance and lays down their powers, duties, and framework for governance as the country's premier institutions in the field of technology.</p>
+        </div>
+    </div>
+</section>
+    
+<!--Footer-->
+    <section class="footer">
+        <div class="icons">
+            <a href="https://www.facebook.com/profile.php?id=100090662660823" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/ConnectTechno10" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com/edu_nest_dev/" class="fa fa-instagram"></a>
+            <a href="https://github.com/ConnectTechnologies" class="fa fa-github"></a>
+            <a href="https://www.linkedin.com/in/edu-nest-a58132268/" class="fa fa-linkedin"></a>
+        </div>
+        <p>Copyright <i class="fa fa-copyright"></i> 2023-2024 Connect Technologies</p>
+    </section>
+    
+    
+    
+
+    
+    
+<!----Javascript Toggle for Menu----->
+    <script>
+        
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+        
+    </script>
+    
+    
+    
+    <script>
+    
+    var loader = document.getElementById("preloader")  
+    
+    window.addEventListener("load", function(){
+        loader.style.display = "none";
+    })
+        
+    </script>
+    
+    
+    
+    
+</body>
+</html>
